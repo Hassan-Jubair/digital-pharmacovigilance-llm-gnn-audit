@@ -59,4 +59,4 @@ In compliance with Reddit API Terms of Service, CIOMS Guideline 12, and AoIR eth
 
 If you use this audit benchmark or anonymized graph dataset, please cite:
 
-> Rafi TI, Ahmed H, Hemal MAKP, Jubair H. Auditing Zero-Shot Large Language Model and Graph Neural Network Pipelines for Digital Pharmacovigilance of Grey-Market Peptides and Metabolic Therapeutics. *PLOS Digital Health* (in revision). Zenodo archive: https://doi.org/[INSERT ZENODO DOI].
+> Rafi TI, Ahmed H, Hemal MAKP, Jubair H. Auditing Zero-Shot Large Language Model and Graph Neural Network Pipelines for Digital Pharmacovigilance of Grey-Market Peptides and Metabolic Therapeutics. *PLOS Digital Health* (in revision). Zenodo archive: https://doi.org/10.5281/zenodo.24556071.
