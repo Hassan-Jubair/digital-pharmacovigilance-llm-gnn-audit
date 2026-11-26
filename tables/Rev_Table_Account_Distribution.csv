@@ -1,0 +1,2 @@
+Unique_Named_Accounts,Total_Records,Mean_Per_Acct,Median_Per_Acct,IQR_25_75,P95,P99,Max_Single_Acct,Gini_Coefficient,Top1Pct_Vol_Share_Pct,Top5Pct_Vol_Share_Pct
+15768,26778,1.698,1.0,1.0 - 2.0,4.0,9.0,115,0.3487,11.52,30.15

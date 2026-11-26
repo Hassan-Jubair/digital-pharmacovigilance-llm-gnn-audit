@@ -1,0 +1,69 @@
+{
+  "kaggle_llm_and_praw_metadata": {
+    "model_name": "unsloth/mistral-7b-instruct-v0.2-bnb-4bit",
+    "quantization": "4-bit bitsandbytes via Unsloth FastLanguageModel (locked cuda:0)",
+    "decoding": {
+      "max_new_tokens": 20,
+      "temperature": 0.1,
+      "max_seq_length": 2048,
+      "batch_size": 16
+    },
+    "subreddits_queried_in_praw": [
+      "Peptides",
+      "Biohackers",
+      "PEDs",
+      "Tirzepatide",
+      "Retatrutide",
+      "Semaglutide",
+      "Supplements",
+      "PSSD",
+      "Anhedonia",
+      "StackAdvice"
+    ],
+    "search_queries_in_praw": [
+      "BPC-157",
+      "TB-500",
+      "Dihexa",
+      "Semax",
+      "Selank",
+      "Tirzepatide",
+      "Retatrutide",
+      "Semaglutide",
+      "Ipamorelin",
+      "MK-677",
+      "Ibutamoren",
+      "CJC-1295"
+    ],
+    "exact_kaggle_prompt": "You are a medical data extraction tool. Read the text. If the author explicitly states they experienced a negative physiological or psychological side effect from taking a compound, list the side effect using standard medical terminology (e.g., Nausea, Insomnia, Palpitations, Fatigue). If no negative side effect is experienced by the author, output the word NONE. DO NOT write sentences. DO NOT explain your reasoning. Output ONLY a comma-separated list of symptoms, or NONE."
+  },
+  "training_and_eval_config": {
+    "WINDOW_WEEKS": 4,
+    "STEP_WEEKS": 1,
+    "EMBARGO_STEPS": 4,
+    "MIN_WINDOW_RECORDS": 50,
+    "MIN_GRAPH_NODES": 11,
+    "MAX_NODE_DEGREE": 100,
+    "SEEDS": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "EPOCHS": 150,
+    "PATIENCE": 25,
+    "BATCH_SIZE": 16,
+    "LR": 0.005,
+    "WEIGHT_DECAY": 0.0005,
+    "HIDDEN_DIM": 16,
+    "DROPOUT": 0.2,
+    "BOOTSTRAP_B": 2000,
+    "BLOCK_LEN": 4,
+    "ROLLING_FOLDS": 4
+  }
+}

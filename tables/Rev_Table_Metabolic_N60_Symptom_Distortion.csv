@@ -1,0 +1,11 @@
+Cohort,Symptom,Human_Count,Human_Pct_of_Pos,LLM_Count,LLM_Pct_of_PredPos
+Metabolic_N60,NAUSEA,2,15.4,5,38.5
+Metabolic_N60,DIARRHEA,2,15.4,3,23.1
+Metabolic_N60,FATIGUE,4,30.8,1,7.7
+Metabolic_N60,INSOMNIA,2,15.4,2,15.4
+Metabolic_N60,SKIN SENSITIVITY,2,15.4,1,7.7
+Metabolic_N60,TACHYCARDIA,2,15.4,0,0.0
+Metabolic_N60,LEG PAIN,1,7.7,1,7.7
+Metabolic_N60,DYSPEPSIA,2,15.4,0,0.0
+Metabolic_N60,FLUSHING,1,7.7,0,0.0
+Metabolic_N60,ABDOMINAL DISCOMFORT,1,7.7,0,0.0

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or anonymized dataset, please cite the associated manuscript."
+title: "Auditing Zero-Shot Large Language Model and Graph Neural Network Pipelines for Digital Pharmacovigilance of Grey-Market Peptides and Metabolic Therapeutics"
+version: 1.0.0
+date-released: 2026-11-26
+authors:
+  - family-names: "Rafi"
+    given-names: "Tajul Islam"
+    orcid: "https://orcid.org/0009-0004-9277-0607"
+    affiliation: "College of Computer Science & Information Systems, Pacific States University, Los Angeles, CA, USA"
+  - family-names: "Ahmed"
+    given-names: "Hossain"
+    orcid: "https://orcid.org/0009-0006-9145-8958"
+    affiliation: "College of Computer Science, Pacific States University, Los Angeles, CA, USA"
+  - family-names: "Hemal"
+    given-names: "Md Abu Kawsar Prodhan"
+    orcid: "https://orcid.org/0009-0002-3376-5192"
+    affiliation: "College of Computer Science, Pacific States University, Los Angeles, CA, USA"
+  - family-names: "Jubair"
+    given-names: "Hassan"
+    orcid: "https://orcid.org/0009-0003-8001-7856"
+    affiliation: "Department of Electrical and Electronic Engineering, Khulna University of Engineering and Technology, Khulna, Bangladesh"
+license: MIT

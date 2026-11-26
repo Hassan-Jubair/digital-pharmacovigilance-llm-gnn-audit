@@ -1,0 +1,15 @@
+Block,Metric,Value
+C. BPC-157 Audit: Human-vs-Human IRR (N=60),Dual-Annotated BPC-157 Posts (N),60
+C. BPC-157 Audit: Human-vs-Human IRR (N=60),Post-Level Binary Presence Kappa (N=60),0.9638
+C. BPC-157 Audit: Human-vs-Human IRR (N=60),Exact Symptom-Set Match (All N=60 / Pos Cohort),88.3% / 68.2% (15/22)
+C. BPC-157 Audit: Human-vs-Human IRR (N=60),"Pooled Symptom-Level Kappa (Pos n=22, V=32)",0.8410
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Post-Level Binary Confusion Matrix (TP / TN / FP / FN),18 / 30 / 8 / 4
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Binary Precision [95% Wilson CI],"69.2% [50.0, 83.5]"
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Binary Recall / Sensitivity [95% Wilson CI],"81.8% [61.5, 92.7]"
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Binary Specificity [95% Wilson CI],"78.9% [63.7, 88.9]"
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Binary F1 / Accuracy / Cohen's Kappa,75.0% / 80.0% / 0.5853
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),6-Way Set Breakdown (Exact TP / Partial / Mismatch / FP / FN / TN),4 / 9 / 5 / 8 / 4 / 30
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Strict Set-Level Precision / Recall / F1,15.4% / 18.2% / 16.7%
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Relaxed Set-Level Precision / Recall / F1,50.0% / 59.1% / 54.2%
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),"Symptom-Level Micro Precision / Recall / F1 (N=60, V=72)",26.7% / 50.0% / 34.8%
+D. BPC-157 Audit: Mistral-7B vs. Gold (N=60),Symptom-Level Pooled Cohen's Kappa (N=60),0.3399

@@ -1,0 +1,4 @@
+Split,N_Graphs,Feature_Start,Feature_End,Label_End,PosRate_delta_gt_0,PosRate_abs_2pp,PosRate_rel_10pct,PosRate_rolling_05sd
+Train,106,2023-06-12,2025-07-13,2025-07-20,0.462,0.274,0.245,0.396
+Validation (post-embargo),24,2025-07-21,2026-01-25,2026-02-01,0.5,0.208,0.125,0.375
+Test (post-embargo),26,2026-02-02,2026-08-23,2026-08-30,0.5,0.115,0.115,0.269

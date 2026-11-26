@@ -1,0 +1,6 @@
+Feature_Subset,Best_Val_C,Coef_rho_t,Train_AUROC,Test_AUROC,Test_AUPRC,Test_Brier
+1_Feature: rho_t only,0.01,-0.1109,0.6731,0.7929,0.7981,0.2483
+"3_Features: rho_t, rho_{t-1}, rho_{t-2}",10.0,-0.2,0.6821,0.645,0.6631,0.2444
+4_Features: rho lags + delta_rho,5.0,-0.3189,0.6824,0.645,0.6631,0.2444
+8_Features: rho lags + post/node volumes,10.0,-0.2854,0.7401,0.6036,0.56,0.2442
+10_Features: Full Lagged_LogReg (+ degree mean/SD),10.0,-0.2807,0.7368,0.6036,0.5594,0.2436

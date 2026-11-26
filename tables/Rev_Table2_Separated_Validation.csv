@@ -1,0 +1,13 @@
+Block,Metric,Value
+A. Human-vs-Human IRR,Total Dual-Annotated Posts (N),200
+A. Human-vs-Human IRR,Post-Level Binary Presence Kappa (N=200),0.9869
+A. Human-vs-Human IRR,Exact Symptom-Set Match (All N=200 / Positive Cohort),97.0% / 88.5% (46/52)
+A. Human-vs-Human IRR,"Pooled Symptom-Level Kappa (Pos Cohort n=52, V=71)",0.9118
+B. Mistral-7B vs. Gold (All N=200),Post-Level Binary Confusion Matrix (TP / TN / FP / FN),47 / 146 / 3 / 4
+B. Mistral-7B vs. Gold (All N=200),Post-Level Binary Precision / Recall / Specificity / F1,94.0% / 92.2% / 98.0% / 93.1%
+B. Mistral-7B vs. Gold (All N=200),Post-Level Binary Accuracy / Cohen's Kappa,96.5% / 0.9073
+B. Mistral-7B vs. Gold (All N=200),6-Way Set Breakdown (Exact TP / Partial / Mismatch / FP / FN / TN),28 / 10 / 9 / 3 / 4 / 146
+B. Mistral-7B vs. Gold (All N=200),Strict Set-Level Precision / Recall / F1 (Partials & Mismatches = Errors),56.0% / 54.9% / 55.4%
+B. Mistral-7B vs. Gold (All N=200),Relaxed Set-Level Precision / Recall / F1 (Overlap = Hit; Mismatch = Error),76.0% / 74.5% / 75.2%
+B. Mistral-7B vs. Gold (All N=200),"Symptom-Level Micro Precision / Recall / F1 (All N=200, V=98)",66.4% / 76.0% / 70.9%
+B. Mistral-7B vs. Gold (All N=200),Symptom-Level Pooled Cohen's Kappa (All N=200),0.7072

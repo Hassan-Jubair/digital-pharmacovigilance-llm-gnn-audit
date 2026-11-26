@@ -1,0 +1,6 @@
+Stage,Records,Named_Accounts,Retention_Pct
+1. Initial Harvested Corpus (2014-03-03 to 2026-08-31),81223,31838,100.0
+2. Heuristic Clinical & Length Filtering (Mar 2014 - Aug 2026),28491,16179,35.08
+3. Sparse Tail Truncation (>= 2019-12-01),27672,15768,34.07
+4. Excluding ANONYMOUS_USER / Deleted Authors (-894 records),26778,15768,32.97
+5. LLM Symptom-Positive Records (Named Dense Cohort),6626,5105,8.16

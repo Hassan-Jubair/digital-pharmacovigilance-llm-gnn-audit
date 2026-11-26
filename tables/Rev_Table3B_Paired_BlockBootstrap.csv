@@ -1,0 +1,6 @@
+Comparison,Delta_AUPRC,Delta_AUPRC_95CI,p_AUPRC,Delta_AUROC,Delta_AUROC_95CI,p_AUROC
+Structural_GCN vs MeanReversion_Rule,-0.114,"[-0.244, 0.001]",0.058,-0.1006,"[-0.220, -0.036]",0.003
+Structural_GCN vs Lagged_LogReg,0.1246,"[-0.009, 0.257]",0.072,0.0888,"[-0.055, 0.261]",0.216
+Structural_GCN vs Lagged_MLP,0.1415,"[-0.017, 0.207]",0.096,0.1243,"[-0.065, 0.315]",0.214
+Structural_GCN vs ZeroLag_Prevalence_MLP,-0.114,"[-0.244, 0.001]",0.058,-0.1006,"[-0.220, -0.036]",0.003
+Structural_GCN vs Temporal_GAT,-0.0905,"[-0.226, -0.004]",0.038,-0.0769,"[-0.219, 0.000]",0.073

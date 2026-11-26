@@ -1,0 +1,6 @@
+Stratum,N_Posts,Gold_Pos,TP_TN_FP_FN,Bin_Precision,Bin_Recall,Bin_Specificity,Bin_F1
+Retatrutide,33,9,7/24/0/2,100.0%,77.8%,100.0%,87.5%
+Tirzepatide,26,7,6/19/0/1,100.0%,85.7%,100.0%,92.3%
+Semaglutide,17,7,4/10/0/3,100.0%,57.1%,100.0%,72.7%
+BPC-157,3,1,1/2/0/0,100.0%,100.0%,100.0%,100.0%
+Other_Peptides_Or_General,148,35,34/110/3/1,91.9%,97.1%,97.3%,94.4%
